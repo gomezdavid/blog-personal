@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Github, Linkedin, Twitter, Moon, Sun, Underline } from "lucide-react"
+import { Github, Linkedin, Moon, Sun, Underline } from "lucide-react"
 
 export default function Home() {
   const [theme, setTheme] = useState("light")
@@ -64,12 +64,6 @@ export default function Home() {
                   <span className="sr-only">LinkedIn</span>
                 </a>
               </Button>
-              {/* <Button variant="outline" size="icon" asChild>
-                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-                  <Twitter className="h-5 w-5" />
-                  <span className="sr-only">Twitter</span>
-                </a>
-              </Button> */}
             </div>
           </CardContent>
         </Card>
@@ -84,26 +78,7 @@ export default function Home() {
                 <Link href="/posts/microservices" className="text-lg font-semibold hover:underline">
                   Microservices in a nutshell
                 </Link>
-
-                {/* <p className="text-sm text-gray-500 dark:text-gray-400">Published on May 15, 2023</p> */}
-                {/* <p className="mt-2">
-                  Want to know how Microservices work? check this post and find out...
-                </p> */}
               </li>
-              {/* <li className="text-center">
-                <h3 className="text-lg font-semibold">The Power of CSS Grid</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Published on April 22, 2023</p>
-                <p className="mt-2">
-                  Learn how to create complex layouts with ease using CSS Grid...
-                </p>
-              </li>
-              <li className="text-center">
-                <h3 className="text-lg font-semibold">Optimizing Your Website for Performance</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Published on March 10, 2023</p>
-                <p className="mt-2">
-                  Discover techniques to make your website lightning fast...
-                </p>
-              </li> */}
             </ul>
           </CardContent>
         </Card>
