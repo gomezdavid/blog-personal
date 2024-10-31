@@ -20,7 +20,7 @@ export default function MicroservicesPost() {
                     <CardContent className="prose dark:prose-invert max-w-none">
                         <h2>Have You Heard About Them?</h2>
 
-                        <p>In this post, you'll finally understand what microservices are and how they are used — explained simply to avoid confusion.</p>
+                        <p>In this post, you will finally understand what microservices are and how they are used — explained simply to avoid confusion.</p>
 
 
                         <p>Imagine you want to build a new Mercado Libre. You hire developers and realize you need multiple modules: search, posting, product creation and deletion, user registration, payment methods, and so on.</p>
